@@ -1,0 +1,44 @@
+.App {
+  height: 100vh; //app is taking the height of the device
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+}
+
+.App__right {
+  height: 100vh;
+  display: grid;
+  grid-template-rows: 1fr 19fr; 
+
+  .create-board {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+
+      p {
+          font-size: 25px
+      }
+
+      .btn-create {
+
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          margin: 10px;
+
+          button {
+              background: var(--secondary-color);
+              font-size: 20px;
+              border: none;
+              padding: 15px;
+              border-radius: 15px;
+              cursor: pointer;
+          }
+
+          button:hover {
+              scale: 1.1;
+              border: 1px solid gray;
+          }
+      }
+  }
+}

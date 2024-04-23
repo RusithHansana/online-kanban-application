@@ -1,0 +1,141 @@
+.app__navbar {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+
+    @media screen and (max-width: 900px) {
+        justify-content: space-between;
+    }
+}
+
+.app__navbar-left {
+    width: 30%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    input {
+        width: 100%;
+        height: 2rem;
+        text-align:justify;
+        color: var(--font-color);
+        font-size: 18px;
+        letter-spacing: 0.25rem;
+        margin-right: 5px;
+        border: 1px solid gray;
+        border-radius: 5px;
+
+        @media screen and (max-width: 900px) {
+            font-size: 14px;
+        }
+    }
+
+    input:focus {
+        outline: none;
+        border-radius: 5px;
+        border: 1px solid var(--font-color);
+    }
+
+    ::placeholder {
+        letter-spacing: 0.5rem;
+        padding: 5px;
+
+        @media screen and (max-width: 900px) {
+            font-size: 16px;
+            letter-spacing: 0.25rem;
+        }
+        
+        @media screen and (max-width: 400px) {
+            font-size: 14px;
+            letter-spacing: 0.15rem;
+        }
+
+
+    }
+
+    @media screen and (max-width: 900px) {
+        width: 60%;
+    }
+
+}
+
+.app__navbar-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    cursor: pointer;
+
+    button {
+        background-color: var(--primary-color);
+        border: none;
+        border-radius: 70%;
+        text-align: center;
+        padding: 1rem;
+        text-decoration: none;
+    }
+
+    .userinfo {
+        text-transform: capitalize;
+        text-align: center;
+        padding: 5px;
+        margin-bottom: 5px;
+
+    }
+
+    .btn-logout {
+        margin-left: 15px;
+    }
+
+}
+
+.btn-header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 5px;
+    padding: 6px;
+
+    p {
+        background: inherit;
+        text-align: center;
+        margin-left: 5px;
+    }
+
+    @media screen and (max-width: 900px){
+        p{
+            display: none;
+        }
+
+        svg {
+            width: 20px;
+            height: 20px;
+        }
+    }
+
+}
+
+.btn-header:hover {
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+
+    svg {
+        background: inherit;
+    }
+}
+
+.overlay {
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: fixed;
+}
+
+.overlay {
+    background: rgba(49, 49, 49, 0.295);
+}

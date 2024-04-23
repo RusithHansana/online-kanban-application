@@ -1,0 +1,125 @@
+.app__card{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    border: 1px solid gray;
+    border-radius: 10px;
+    width: 280px;
+    min-height: 200px;
+    margin: 10px;
+    background: var(--secondary-color);
+
+    @media screen and (max-width: 900px) {
+        width: 180px;
+    }
+}
+
+.app__card-tasklist {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: transparent;
+    margin-top: 10px;
+
+    li{
+        font-size: 18px;
+        width: 200px;
+        border: 1px solid gray;
+        margin-top: 0;
+        margin-bottom: 10px;
+        padding: 10px;
+        border-radius: 10px;
+        background: #5f5f5f;
+        opacity: 0.75;
+        
+        @media screen and (max-width: 900px) {
+            width: 160px;
+        }
+    }
+
+    .btn-tasklist {
+        border: none;
+        background: inherit;
+        border-radius: 15px;
+        opacity: 0.75;
+        margin: 5px;
+        cursor: pointer;
+
+        svg {
+            background: inherit;
+
+        }
+    }
+}
+
+.addtask {
+    display: flex;
+    font-size: 18px;
+    width: 200px;
+    border: 1px solid gray;
+    padding: 3px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    opacity: 0.75;
+    
+    @media screen and (max-width: 900px) {
+        width: 160px;
+    }
+
+    .addbtn {
+        cursor: pointer;
+    }
+
+    svg {
+        background: inherit;
+        margin: 5px;
+    }
+
+    input {
+        width: 80%;
+        color: var(--font-color);
+        font-size: 16px;
+        border: none;
+
+        @media screen and (max-width: 900px) {
+            font-size: 14px;
+        }
+    }
+
+    input:focus {
+        outline: none;
+    }
+}
+
+.app__card-title {
+    font-size: 20px;
+    width: 50%;
+    text-align: start;
+    background: transparent;
+    padding-top: 15px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+
+    @media screen and (max-width: 900px) {
+        font-size: 16px;
+    }
+}
+
+.cardheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: var(--secondary-color);
+    border-radius: 10px 10px 0 0;
+    margin: 5px;
+
+    svg {
+        width: 20px;
+        background: inherit;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+}

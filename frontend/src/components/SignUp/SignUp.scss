@@ -1,0 +1,119 @@
+.signup {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 100dvh;
+    padding: 15px;
+
+    .welcome-text{
+        span {
+            font-size: 5rem;
+            font-weight: bold;
+
+            @media screen and (max-width:600px) {
+                font-size: 2rem;
+            }
+        }
+
+        font-size: 2rem;
+        padding: 10px;
+        @media screen and (max-width:600px) {
+            font-size: 1rem;
+        }
+    }
+
+    @media screen and (max-width:600px) {
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    
+    .signup-form {
+        background: var(--secondary-color);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 500px;
+        height: 95dvh;
+        padding: 30px 60px;
+        border-radius: 25px;
+        
+        
+        div {
+            background: var(--secondary-color);
+        }
+
+        h1 {
+            font-size: 2rem;
+            margin-top: 1rem;
+            letter-spacing: 0.5rem;
+        }
+        
+        p {
+            background: inherit;
+            margin-bottom: 1rem;
+            span {  
+                background: inherit;   
+                cursor: pointer;
+            }
+
+            span:hover {
+                color: gray;
+            }
+        }
+
+        h1, p {
+            background: transparent;
+            text-align: center;
+        }
+
+        .form-header {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            svg {
+                width: 50px;
+                height: 50px;
+                background: inherit;
+            }
+        }
+
+        .inputs {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            button {
+                background: var(--primary-color);
+                width: 90%;
+                border: none;
+                border-radius: 15px;
+                padding: 10px;
+                font-size: 1.25rem;
+                letter-spacing: 0.5rem;
+                font-weight: bold;
+                margin-top: 30px;
+            }
+
+            button:hover {
+                background: var(--font-color);
+                color: var(--secondary-color);
+            }
+        }
+
+        .form-footer {
+            padding: 10px;
+        }
+
+        @media screen and (max-width: 600px) {
+            height: 100%;
+            width: 100%;
+            margin-left: 20px;
+        }
+    }
+}
+

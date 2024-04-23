@@ -1,0 +1,22 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+:root {
+  --primary-color: #222121;
+  --secondary-color: #1b1a1a;
+  --font-color: #ebe8f1;
+  --highlight-green: #d0ff14;
+  --highlight-cyan: #3ef2dd;
+  --highlight-pink: #f44bc2;
+  --highlight-purple: #9313b2;
+  --highlight-blue: #127ada;
+}
+
+* {
+  background: var(--primary-color);
+  color: var(--font-color);
+  font-family: "Fira sans";
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  scroll-behavior: smooth;
+}
