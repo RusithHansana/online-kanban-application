@@ -37,6 +37,10 @@ An online Kanban board application designed to help you manage your projects eff
 ![Cors](https://img.shields.io/badge/Cors-2.8.5-red)
 ![Express Async Handler](https://img.shields.io/badge/Express%20Async%20Handler-1.2.0-blue)
 
+### Database
+
+![MongoDB Atlas](https://img.shields.io/badge/MongoDB%20Atlas-cloud-green)
+
 ### Development Tools
 
 ![Concurrently](https://img.shields.io/badge/Concurrently-8.2.2-blue)
@@ -53,6 +57,7 @@ An online Kanban board application designed to help you manage your projects eff
 
 - Node.js
 - npm or yarn
+- [MongoDB Atlas account and cluster](https://www.mongodb.com/cloud/atlas/register)
 
 ### Steps
 
