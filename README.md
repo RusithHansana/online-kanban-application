@@ -1,14 +1,5 @@
 # Online Kanban Board
 
-![Kanban Board](url_to_logo_image)  <!-- Optional: Add a logo if you have one -->
-
-![GitHub repo size](https://img.shields.io/github/repo-size/your_username/your_project_name)
-![GitHub contributors](https://img.shields.io/github/contributors/your_username/your_project_name)
-![GitHub stars](https://img.shields.io/github/stars/your_username/your_project_name?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your_username/your_project_name?style=social)
-![GitHub issues](https://img.shields.io/github/issues/your_username/your_project_name)
-![MIT License](https://img.shields.io/github/license/your_username/your_project_name)
-
 ## Description
 
 An online Kanban board application designed to help you manage your projects efficiently. This project includes features such as user registration and sign-in, project creation, card and task management, and drag-and-drop functionality for reordering tasks. Developed to enhance my skills in React and full-stack development, this app has provided valuable insights and experiences.
@@ -115,10 +106,6 @@ If you would like to contribute, please fork the repository and use a feature br
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Create a new Pull Request
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
 ## Acknowledgments
 
 - [React](https://reactjs.org/)
@@ -131,8 +118,3 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Feedback
 
 Feel free to provide feedback and suggestions for improvements. If you encounter any issues or have ideas for optimizations, please let me know!
-
-### Notes:
-1. Replace placeholder URLs like `url_to_logo_image`, `url_to_screenshot_1`, and `url_to_screenshot_2` with actual links to your logo and screenshots.
-2. Ensure that the links for badges, and references to your GitHub repository (like `your_username/your_project_name`), are correctly replaced with your actual GitHub username and repository name.
-3. Add more details to sections like "Acknowledgments" if there are specific people, resources, or libraries you want to give credit to.
