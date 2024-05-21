@@ -2,12 +2,12 @@
 
 ![Kanban Board](url_to_logo_image)  <!-- Optional: Add a logo if you have one -->
 
-![GitHub repo size](https://img.shields.io/github/repo-size/your_username/your_project_name)
-![GitHub contributors](https://img.shields.io/github/contributors/your_username/your_project_name)
-![GitHub stars](https://img.shields.io/github/stars/your_username/your_project_name?style=social)
-![GitHub forks](https://img.shields.io/github/forks/your_username/your_project_name?style=social)
-![GitHub issues](https://img.shields.io/github/issues/your_username/your_project_name)
-![MIT License](https://img.shields.io/github/license/your_username/your_project_name)
+![GitHub repo size](https://img.shields.io/github/repo-size/rusith_hansana/online-kanban-application)
+![GitHub contributors](https://img.shields.io/github/contributors/rusith_hansana/online-kanban-application)
+![GitHub stars](https://img.shields.io/github/stars/rusith_hansana/online-kanban-application?style=social)
+![GitHub forks](https://img.shields.io/github/forks/rusith_hansana/online-kanban-application?style=social)
+![GitHub issues](https://img.shields.io/github/issues/rusith_hansana/online-kanban-application)
+![MIT License](https://img.shields.io/github/license/rusith_hansana/online-kanban-application)
 
 ## Description
 
