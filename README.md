@@ -2,12 +2,12 @@
 
 ![Kanban Board](url_to_logo_image)  <!-- Optional: Add a logo if you have one -->
 
-![GitHub repo size](https://img.shields.io/github/repo-size/rusith_hansana/online-kanban-application)
-![GitHub contributors](https://img.shields.io/github/contributors/rusith_hansana/online-kanban-application)
-![GitHub stars](https://img.shields.io/github/stars/rusith_hansana/online-kanban-application?style=social)
-![GitHub forks](https://img.shields.io/github/forks/rusith_hansana/online-kanban-application?style=social)
-![GitHub issues](https://img.shields.io/github/issues/rusith_hansana/online-kanban-application)
-![MIT License](https://img.shields.io/github/license/rusith_hansana/online-kanban-application)
+![GitHub repo size](https://img.shields.io/github/repo-size/your_username/your_project_name)
+![GitHub contributors](https://img.shields.io/github/contributors/your_username/your_project_name)
+![GitHub stars](https://img.shields.io/github/stars/your_username/your_project_name?style=social)
+![GitHub forks](https://img.shields.io/github/forks/your_username/your_project_name?style=social)
+![GitHub issues](https://img.shields.io/github/issues/your_username/your_project_name)
+![MIT License](https://img.shields.io/github/license/your_username/your_project_name)
 
 ## Description
 
@@ -68,3 +68,71 @@ An online Kanban board application designed to help you manage your projects eff
 1. Clone the repository:
    ```bash
    git clone https://github.com/your_username/your_project_name.git
+   ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd your_project_name
+   ```
+
+3. Install frontend dependencies:
+   ```bash
+   cd client
+   npm install  # or yarn install
+   ```
+
+4. Install backend dependencies:
+   ```bash
+   cd ../server
+   npm install  # or yarn install
+   ```
+
+5. Create a `.env` file in the server directory and add the following variables:
+   ```env
+   PORT=5000
+   MONGO_URI=your_mongodb_connection_string
+   JWT_SECRET=your_jwt_secret
+   ```
+
+6. Start the development server:
+   ```bash
+   npm run dev  # This will concurrently start both frontend and backend servers
+   ```
+
+## Usage
+
+1. Open your browser and go to `http://localhost:3000` to use the Kanban board application.
+2. Register a new user account or sign in with your credentials.
+3. Start creating projects, adding cards, and managing tasks!
+
+## Contributing
+
+If you would like to contribute, please fork the repository and use a feature branch. Pull requests are warmly welcome.
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
+3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
+4. Push to the branch (`git push origin feature/AmazingFeature`)
+5. Create a new Pull Request
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [React](https://reactjs.org/)
+- [Redux Toolkit](https://redux-toolkit.js.org/)
+- [Framer Motion](https://www.framer.com/motion/)
+- [React Beautiful DnD](https://github.com/atlassian/react-beautiful-dnd)
+- [Express](https://expressjs.com/)
+- [Mongoose](https://mongoosejs.com/)
+
+## Feedback
+
+Feel free to provide feedback and suggestions for improvements. If you encounter any issues or have ideas for optimizations, please let me know!
+
+### Notes:
+1. Replace placeholder URLs like `url_to_logo_image`, `url_to_screenshot_1`, and `url_to_screenshot_2` with actual links to your logo and screenshots.
+2. Ensure that the links for badges, and references to your GitHub repository (like `your_username/your_project_name`), are correctly replaced with your actual GitHub username and repository name.
+3. Add more details to sections like "Acknowledgments" if there are specific people, resources, or libraries you want to give credit to.
