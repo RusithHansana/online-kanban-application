@@ -48,7 +48,7 @@ An online Kanban board application designed to help you manage your projects eff
 
 ## Screenshots
 
-![Screenshot 1](url_to_screenshot_1)
+![Screenshot 1](kanbanproject/sign_in.png)
 ![Screenshot 2](url_to_screenshot_2)
 
 ## Installation
