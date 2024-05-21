@@ -58,29 +58,32 @@ An online Kanban board application designed to help you manage your projects eff
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your_username/your_project_name.git
+   git clone https://github.com/RusithHansana/online-kanban-application.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd your_project_name
+   cd online-kanban-application
    ```
 
 3. Install frontend dependencies:
    ```bash
-   cd client
+   cd frontend
    npm install  # or yarn install
    ```
 
 4. Install backend dependencies:
    ```bash
-   cd ../server
+   cd ../backend
    npm install  # or yarn install
    ```
 
 5. Create a `.env` file in the server directory and add the following variables:
    ```env
+   NODE_env = development
    PORT=5000
+   USER = mongodb atlas username
+   password = mongodb atlas password
    MONGO_URI=your_mongodb_connection_string
    JWT_SECRET=your_jwt_secret
    ```
